@@ -7,8 +7,8 @@ class ContactForm < MailForm::Base
   # in ActionMailer accepts.
   def headers
     {
-      subject: 'Contact form from silvia.cat',
-      to: 'silvia@silvia.cat',
+      subject: 'Contact form from joan@divinscatellvi.name',
+      to: 'joan@divinscastellvi.name',
       from: %("#{name}" <#{email}>)
     }
   end
